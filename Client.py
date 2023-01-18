@@ -4,7 +4,7 @@ import socket
 
 s = socket.socket()
 port = 8080 
-host = "" #Add your Hostname or your IP adress
+host = "YOUR IP OR HOSTNAME" #Add your Hostname or your IP adress
 s.connect((host, port))
 print("")
 print("Connectted to the server successfuly")
